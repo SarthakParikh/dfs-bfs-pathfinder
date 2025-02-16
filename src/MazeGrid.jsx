@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-export default function MazeGrid({ width = 10, height = 10 }) {
+export default function MazeGrid({ width = 30, height = 30 }) {
   const [maze, setMaze] = useState([]);
   const [timeoutIds, setTimeoutIds] = useState([]);
 
