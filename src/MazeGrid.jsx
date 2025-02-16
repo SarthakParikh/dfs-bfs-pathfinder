@@ -193,7 +193,7 @@ export default function MazeGrid({ width = 15, height = 15 }) {
   function refreshMaze() {
     timeoutIds.forEach(clearTimeout);
     setTimeoutIds([]);
-    generateMaze(10, 10);
+    generateMaze(15, 15);
   }
 
   return (
